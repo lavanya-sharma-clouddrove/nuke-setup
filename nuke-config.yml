@@ -1,0 +1,13 @@
+regions:
+- ap-south-1
+- us-east-2
+
+account-blocklist:
+- "924144197303"  # Your AWS account ID
+
+resource-types:
+  targets:
+  - EC2Instance
+
+accounts:
+  "924144197303": {}  # Your AWS account ID
